@@ -125,6 +125,24 @@ section .title::after{
 .navbar.sticky .menu li a:hover{
     color: #fff;
 }
+.navbar .menu i{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu i a{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu i a:hover{
+    color: crimson;
+}
+.navbar.sticky .menu i a:hover{
+    color: #fff;
+}
 
 /* menu btn styling */
 .menu-btn{
